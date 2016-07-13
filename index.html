@@ -1,0 +1,516 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html class="csstransforms csstransforms3d csstransitions js no-touch"><head>
+<title>个人网站</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="css/magnific-popup1.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+	<!--  jquery plguin -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!--start slider -->
+	    <link rel="stylesheet" href="css/fwslider.css" media="all">
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/fwslider.js"></script>
+	<!--end slider -->
+ <script type="text/javascript">
+			$(document).ready(function() {
+
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear'
+		 		};
+
+
+				$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+		</script>
+		<!-- Add fancyBox light-box -->
+		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<!-- <script>
+					$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+					});
+				});
+		</script> -->
+		<!-- //End fancyBox light-box -->
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<h1><a href="index.html">NA-Web</a><audio src=""></audio></h1>
+		</div>
+		<div class="h_right">
+			<ul class="menu">
+				<li class="active"><a href="#home">Home</a></li>
+
+				<li><a href="#about" class="scroll">Skills</a></li>
+        <li><a href="#portfolio" class="scroll">Portfolio</a></li>
+				<li class="last"><a href="#contact" class="scroll">Contact</a></li>
+			</ul>
+			<div id="sb-search" class="sb-search">
+				<form>
+					<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+					<input class="sb-search-submit" type="submit" value="">
+					<span class="sb-icon-search"></span>
+				</form>
+			</div>
+			<script src="js/classie.js"></script>
+			<script src="js/uisearch.js"></script>
+			<script>
+				new UISearch( document.getElementById( 'sb-search' ) );
+			</script>
+			<!-- start smart_nav * -->
+	        <nav class="nav">
+	            <ul class="nav-list">
+	                <li class="nav-item"><a href="#home">Home</a></li>
+
+	                <li class="nav-item"><a href="#about" class="scroll">Skills</a></li>
+                  <li class="nav-item"><a href="#portfolio" class="scroll">Portfolio</a></li>
+	                <li class="nav-item"><a href="#contact" class="scroll">Contact</a></li>
+	                <div class="clear"></div>
+	            </ul>
+	        <div class="nav-mobile"></div></nav>
+	        <script type="text/javascript" src="js/responsive.menu.js"></script>
+			<!-- end smart_nav * -->
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+
+<!----start-images-slider---->
+		<div class="images-slider">
+			<!-- start slider -->
+		    <div id="fwslider" style="overflow: hidden; height: 359px;">
+		        <div class="slider_container">
+		            <div class="slide" style="display: block; z-index:1; opacity:1;">
+		                <!-- Slide image -->
+		                    <img src="images/slider-bg1.jpg" alt="">
+		                <!-- /Slide image -->
+		                <!-- Texts container -->
+		                <div class="slide_content">
+		                    <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title" style="opacity: 1;">Welcome To My web</h4>
+		                        <!-- /Text title -->
+		                        <!-- Text description -->
+		                        <p class="description" style="opacity: 1;">Here To Let You Know More About Me</p>
+		                        <!-- /Text description -->
+		                        <div class="slide-btns description" style="opacity: 1;">
+		                        </div>
+		                    </div>
+		                </div>
+		                 <!-- /Texts container -->
+		            </div>
+		            <!-- /Duplicate to create more slides -->
+		            <div class="slide" style="opacity: 1; z-index: 0; display: none;">
+		                <img src="images/header2.jpg" alt="">
+		                <div class="slide_content">
+		                     <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title" style="opacity: 0;">前端工程师</h4>
+		                        <!-- /Text title -->
+		                        <!-- Text description -->
+		                        <p class="description" style="opacity: 0;">name: zhang nana</p>
+		                        <!-- /Text description -->
+		                        <div class="slide-btns description" style="opacity: 0;">
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <!--/slide -->
+		        </div>
+		        <div class="timers" style="width: 135px;"> <div class="timer"><div class="progress" style="overflow: hidden; width: 89.64%;"></div></div><div class="timer"><div class="progress" style="overflow: hidden; width: 0%;"></div></div></div>
+		        <div class="slidePrev" style="left: 0px; top: 149.5px;"><span> </span></div>
+		        <div class="slideNext" style="right: 0px; top: 149.5px; opacity: 0.5;"><span> </span></div>
+		    </div>
+		    <!--/slider -->
+		</div>
+
+    <!----------- about ------------>
+    <div class="about" id="about">
+    	<div class="wrap">
+    		<h4><img src="images/line.png"> <i>My Skills</i> <img src="images/line.png"></h4>
+    	<div class="section group">
+    		</div>
+    	<div class="client">
+            <h4></h4>
+    		<!----------- clock position ------------>
+    		<div></div>
+    		<div class="pie-wrapper progress-85 style-2">
+    		  <span class="label">85<span class="smaller">%</span></span>
+    		  <div class="pie">
+    		    <div class="left-side half-circle"></div>
+    		    <div class="right-side half-circle"></div>
+    		  </div>
+    		  <div class="shadow"></div>
+    		  <h3>javascript</h3>
+    		</div>
+
+    		<div class="pie-wrapper progress-95 style-2">
+    		  <span class="label">95<span class="smaller">%</span></span>
+    		  <div class="pie">
+    		    <div class="left-side half-circle"></div>
+    		    <div class="right-side half-circle"></div>
+    		  </div>
+    		  <div class="shadow"></div>
+    		   <h3>photoshop</h3>
+    		</div>
+
+    		<div class="pie-wrapper progress-90 style-2">
+    		  <span class="label">90<span class="smaller">%</span></span>
+    		  <div class="pie">
+    		    <div class="left-side half-circle"></div>
+    		    <div class="right-side half-circle"></div>
+    		  </div>
+    		  <div class="shadow"></div>
+    		   <h3>html/css3</h3>
+    		</div>
+    		<div class="pie-wrapper progress-85 style-2">
+    		  <span class="label">85<span class="smaller">%</span></span>
+    		  <div class="pie">
+    		    <div class="left-side half-circle"></div>
+    		    <div class="right-side half-circle"></div>
+    		  </div>
+    		  <div class="shadow"></div>
+    		   <h3>jQuery</h3>
+    		</div>
+    		<div class="pie-wrapper progress-80 style-2">
+    		  <span class="label">80<span class="smaller">%</span></span>
+    		  <div class="pie">
+    		    <div class="left-side half-circle"></div>
+    		    <div class="right-side half-circle"></div>
+    		  </div>
+    		  <div class="shadow"></div>
+    		   <h3>Ajax/angular</h3>
+    		</div>
+    	</div>
+    </div>
+  </div>
+  <div id="cbp-so-scroller" class="cbp-so-scroller">
+        <!--Portfolio-->
+        <div id="portfolio" class="clearfix">
+            <div class="portfolio-bg"> </div>
+            <div class="typo1">
+                <div class="wrapper clearfix">
+                    <div class="section-title">
+                       <h3 class="heading"><img src="images/line.png"> Portfolio <img src="images/line.png"></h3>
+                    </div><!--end:section-title-->
+
+                    <div id="options" class="clearfix">
+                        <ul id="filters" class="option-set clearfix" data-option-key="filter">
+                        	 <li><a href="#filter" data-option-value=".web-design">Web-design</a></li>
+                            <li><a href="#filter" data-option-value=".photo">UI Design</a></li>
+                            <li><a href="#filter" data-option-value=".ios-app">Prototype</a></li>
+                            <li><a href="#filter" data-option-value=".graphic">Photography</a></li>
+                        </ul><!--end:filters-->
+                    </div>
+
+                </div><!--end:wrapper-->
+
+                <ul id="container" class="clickable cs-style-5 grid clearfix isotope" style="position: relative; overflow: hidden; height: 1335px; width: 590px;">
+
+                    <li class="element photo isotope-item" style="position: absolute; left: 0px; top: 0px; -webkit-transform: translate3d(0px, 0px, 0px);">
+                      <figure>
+                          <img src="images/pf-1.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">手机端</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">微信</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">APP</a></span>
+                                </div>
+                                <footer>
+                                   <div id="nivo-lightbox-demo"><p> <a href="/weixin" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element web-design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(295px, 0px, 0px);">
+                      <figure>
+                          <img src="images/pf-2.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">银泰网</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">传递新的生活美学</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">YT</a></span>
+                                </div>
+                                <footer>
+                                    <div id="nivo-lightbox-demo"> <p> <a href="/yintai" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element ios-app isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 267px, 0px);">
+                      <figure>
+                          <img src="images/pf-3.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">五子棋</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">棋从断处生</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">WZQ</a></span>
+                                </div>
+                                <footer>
+                                    <div id="nivo-lightbox-demo"> <p> <a href="/wuziqi" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element graphic isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(295px, 267px, 0px);">
+                      <figure>
+                          <img src="images/pf-4.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">QQ 音乐</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">爱生活，爱音乐</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">Music</a></span>
+                                </div>
+                                <footer>
+                                    <div id="nivo-lightbox-demo"> <p> <a href="/QQmusic" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element photo isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 534px, 0px);">
+                      <figure>
+                          <img src="images/pf-5.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">移动端</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">手机APP</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">当当网购</a></span>
+                                </div>
+                                <footer>
+                                     <div id="nivo-lightbox-demo"> <p> <a href="/Dangdang" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element web-design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(295px, 534px, 0px);">
+                      <figure>
+                          <img src="images/pf-6.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">网购上京东</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">省钱又便宜</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">JD</a></span>
+                                </div>
+                                <footer>
+                                     <div id="nivo-lightbox-demo"> <p> <a href="/jingdong" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element ios-app isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 801px, 0px);">
+                      <figure>
+                          <img src="images/pf-7.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">PS作品</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">图标、网页</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">ps</a></span>
+                                </div>
+                                <footer>
+                                    <div id="nivo-lightbox-demo"> <p> <a href="/jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+                    <li class="element graphic isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(295px, 801px, 0px);">
+                      <figure>
+                          <img src="images/pf-8.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">响应式</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">苹果官网</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">photo</a></span>
+                                </div>
+                                <footer>
+                                   <div id="nivo-lightbox-demo"> <p> <a href="/Apple" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="element web-design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(295px, 1068px, 0px);">
+                      <figure>
+                          <img src="images/pf-10.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">百度改变生活</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">信息专家</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">百度舆情</a></span>
+                                </div>
+                                <footer>
+                                   <div id="nivo-lightbox-demo"> <p> <a href="/baiduyuqing" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                            </footer></figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="element photo isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 1068px, 0px);">
+                      <figure>
+                          <img src="images/pf-9.jpg" alt="">
+                          <figcaption>
+                                <h3><a href="#">HTML5>CANVAS</a></h3>
+                                <div class="meta-box clearfix">
+                                    <span class="entry-categories"><a href="#">钟表</a></span>
+                                    &nbsp;/&nbsp;
+                                    <span class="entry-categories"><a href="#">clock</a></span>
+                                </div>
+                                <footer>
+                                     <div id="nivo-lightbox-demo"> <p> <a href="/zhongbiao" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> View</a> </p></div>
+                                </footer>
+                            </figcaption>
+                        </figure>
+
+                    </li>
+
+
+                    <!-- <div class="clear"> </div> -->
+                </ul> <!-- #container -->
+
+            </div><!--end:typo1-->
+        </div>
+    </div>
+    <!-- portfolio_script_javascript-->
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script src="js/jquery.isotope.min.js"></script>
+   	 <script src="js/jquery.prettyPhoto.js"></script>
+	 <script src="js/custom.js"></script>
+	 <script src="js/modernizr.custom.js"></script>
+		<!-- //End fancyBox light-box -->
+		<!----End-pricingplans---->
+<!-----------end-pricing------------->
+
+<!--------start-contact----------->
+ <div class="contact" id="contact">
+	<div class="wrap">
+		<h2><img src="images/line.png"> Contact Us <img src="images/line.png"></h2>
+			<div class="contact-form">
+				<div class="form">
+					<h3>MAIL</h3>
+				  			<form method="post" action="#">
+							    	<input type="text" class="textbox" value=" Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+							    	<input type="text" class="textbox" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+										<div class="clear"> </div>
+								    <div>
+								    	<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Message';}">Message</textarea>
+								    </div>
+								<div class="span4">
+							    	<a href="#">
+							    		<i><input type="submit" value="Submit mail"></i>
+							    		<div class="clear"></div>
+							    	</a>
+							    </div>
+							</form>
+						</div>
+				<div class="para-contact">
+					<h4>About Me</h4>
+		 		  <div class="get-intouch-left-address">
+		 		  	<p>Name: 张娜娜</p>
+            <p>Gender: 女</p>
+						<p>age: 23</p>
+						<p>Tel: 18435157297</p>
+						<p>Email: 1429566970@qq.com</p>
+						<p>Address: 太原</p>
+					</div>
+					<div class="span4">
+							    	<a href="#">
+							    		<i><input type="submit" value="Purchase"></i>
+							    		<div class="clear"></div>
+							    	</a>
+							    </div>
+					<div class="clear"> </div>
+				</div>
+						<a class="mov-top" href="#home1"> <span> </span></a>
+					 <div class="clear"> </div>
+				</div>
+  			</div>
+     </div>
+<!--------//end-contact----------->
+<!----------- message3 ------------>
+<div class="social">
+	<div class="wrap">
+		<h3>Connect With Me</h3>
+		<p>Follow Me On Social Networks</p>
+	<!---start-social-icons---->
+							<div class="social-icons-set">
+								<ul>
+									<li><a class="facebook" href="#"> </a></li>
+									<li><a class="twitter" href="#"> </a></li>
+									<li><a class="vimeo" href="#"> </a></li>
+									<li><a class="rss" href="#"> </a></li>
+									<li><a class="gplus" href="#"> </a></li>
+									<li><a class="pin" href="#"> </a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="clear"> </div>
+							</div>
+							<!---//End-social-icons---->
+							<div class="clear"> </div>
+    </div>
+</div>
+<div class="footer-bottom">
+	<div class="wrap">
+		<div class="image">
+
+		</div>
+
+		 <div class="clear"></div>
+	</div>
+</div>
+  <!-- scroll_top_btn -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover" style="opacity: 1;"></span></a>
+
+<a href="#" id="toTop">To Top</a></body></html>
